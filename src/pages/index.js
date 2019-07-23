@@ -4,10 +4,10 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import pic01 from '../assets/images/blockchain.png'
+import pic02 from '../assets/images/postgods.png'
+import pic03 from '../assets/images/journey.png'
+import pic04 from '../assets/images/calendar.png'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
 
@@ -31,43 +31,72 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Python Blockchain</h3>
+                                <p>Project created to improve my skills using python.</p>
+                                <h5>Tools Used:</h5>
+                                <ul>
+                                    <li>Python</li>
+                                    <li>Git</li>
+                                    <li>Github</li> 
+                                    <li>Visual Studio</li>
+                                </ul>
+                                <button>Github</button>
                             </header>
+                                
+
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Post Gods</h3>
+                                <p>A one page WordPress website developed for the Post Gods podcast.</p>
+                                <h5>Tools Used</h5>
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>Wordpress</li>
+                                        <li>Vagrant</li>
+                                        <li>Github</li>
+                                        <li>CSS3</li>
+                                        <li>Virtual Box</li>
+                                    </ul>
+                                    <button>Github</button>
+                                    <button>Live Website</button>
+
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Journey Of Entrepreneurship</h3>
+                                <p>A one page WordPress website developed for the Journey Of Entrepreneurship podcast.</p>
+                                <h5>Tools Used</h5>
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>Wordpress</li>
+                                        <li>Vagrant</li>
+                                        <li>Github</li>
+                                        <li>CSS3</li>
+                                        <li>Virtual Box</li>
+                                    </ul>
+                                    <button>Github</button>
+                                    <button>Live Website</button>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
-                            <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
+                                <h3>Javascript Calendar</h3>
+                                <p>A responsive Javascript Calendar created for the KOPMN website to advertise upcoming events.</p>
+                                    <h5>Tools used:</h5>
+                                    <ul>
+                                        <li>Javascript</li>
+                                        <li>CSS3</li>
+                                        <li>Git</li>
+                                        <li>Github</li>
+                                        <li>HTML</li>
+                                    </ul>
+                                    <button>Github</button>
+                           
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
@@ -75,11 +104,13 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>About</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <p>I am a self-taught web developer, primary skillset in WordPress. I am steadily building my knowledge of various new technologies. As a freelancer, I have the opportunity to create solutions for podcasters, non-profit organizations, and small business owners.</p>
+                            <p>I have 8 years of experience editing podcast, over 100 episodes, with my most recent projects being Post Gods and the Journey Of Entrepreneurship. I enjoy the creative process of helping podcasters share their stories, with listeners around the world.</p>
+                            <p>I became a Toastmaster January 1st, 2017. During my time as a Toastmaster, I have had the opportunity to participate in several speech contests as a contestant and facilitator. I am currently serving as the Vice President of Public Relations for the City Of Delray Beach Toastmasters.</p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><Link to="/landing" className="button next">Contact Me</Link></li>
                             </ul>
                         </div>
                     </section>
