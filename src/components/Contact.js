@@ -8,7 +8,7 @@ const Contact = (props) => (
             <h2>Contact</h2>
              
                 <section>
-                    <form name ="contact" method="POST" data-netlify="true" >
+                    <form name ="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
                         <div className="field half first">
                             <label htmlFor="name">Name</label>
                             <input type="text" name="name" id="name" />
