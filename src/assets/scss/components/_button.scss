@@ -10,7 +10,7 @@
 	input[type="reset"],
 	input[type="button"],
 	button,
-	.button {
+	.button, .projectlink {
 		@include vendor('appearance', 'none');
 		@include vendor('transition', (
 			'background-color #{_duration(transition)} ease-in-out',
@@ -34,6 +34,7 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+		margin: 1em;
 
 		&:hover, &:active {
 			box-shadow: inset 0 0 0 2px _palette(highlight);
