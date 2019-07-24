@@ -40,7 +40,7 @@ class HomeIndex extends React.Component {
                                     <li>Github</li> 
                                     <li>Visual Studio</li>
                                 </ul>
-                               <span className="projectlink"><a href="http://www.yahoo.com">View on Github</a></span>
+                               <span className="projectlink"><a href="https://github.com/oriolr/Blockchain">View on Github</a></span>
                             </header>
                                 
 
@@ -59,9 +59,9 @@ class HomeIndex extends React.Component {
                                         <li>CSS3</li>
                                         <li>Virtual Box</li>
                                     </ul>
-                                    <span className="projectlink"><a href="http://www.yahoo.com">View on Github</a></span>
+                                    <span className="projectlink"><a href="https://github.com/oriolr/postgods">View on Github</a></span>
                                    
-                                    <span className="projectlink"><a href="http://www.yahoo.com">View Live Website</a></span>
+                                    <span className="projectlink"><a href="http://www.postgods.com">View Live Website</a></span>
 
                             </header>
                           
@@ -79,9 +79,9 @@ class HomeIndex extends React.Component {
                                         <li>CSS3</li>
                                         <li>Virtual Box</li>
                                     </ul>
-                                    <span className="projectlink"><a href="http://www.yahoo.com">View on Github</a></span>
+                                    <span className="projectlink"><a href="https://github.com/oriolr/journeyofentrepreneurship">View on Github</a></span>
                                    
-                                   <span className="projectlink"><a href="http://www.yahoo.com">View Live Website</a></span>
+                                   <span className="projectlink"><a href="http://www.journeyofentrepreneurship.com">View Live Website</a></span>
                             </header>
                             
                         </article>
@@ -97,7 +97,7 @@ class HomeIndex extends React.Component {
                                         <li>Github</li>
                                         <li>HTML</li>
                                     </ul>
-                                    <span className="projectlink"><a href="http://www.yahoo.com">View on Github</a></span>
+                                    <span className="projectlink"><a href="https://github.com/oriolr/KOPMNCalendar">View on Github</a></span>
                            
                             </header>
                            
@@ -110,7 +110,7 @@ class HomeIndex extends React.Component {
                                     <ul className="tools-items">
                                         <li>React.JS</li>
                                     </ul>
-                                    <span className="projectlink"><a href="http://www.yahoo.com">View on Github</a></span>
+                                    <span className="projectlink"><a href="http://https://github.com/oriolr/Instagramclone">View on Github</a></span>
                            
                             </header>
                          
