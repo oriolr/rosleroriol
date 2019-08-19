@@ -9,6 +9,7 @@ import pic02 from '../assets/images/postgods.png'
 import pic03 from '../assets/images/journey.png'
 import pic04 from '../assets/images/calendar.png'
 import pic05 from '../assets/images/instagram.png'
+import pic06 from '../assets/images/podcast.png'
 
 
 class HomeIndex extends React.Component {
@@ -115,15 +116,15 @@ class HomeIndex extends React.Component {
                             </header>
                          
                         </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
+                        <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
-                                <h3>APP</h3>
+                                <h3>Podcast RSS Plugin</h3>
                                 <p>A responsive Javascript Calendar created for the KOPMN website to advertise upcoming events.</p>
                                     <h5>Tools used:</h5>
                                     <ul className="tools-items">
                                         <li>React.JS</li>
                                     </ul>
-                                    <span className="projectlink"><a href="http://www.yahoo.com">View on Github</a></span>
+                                    <span className="projectlink"><a href="https://github.com/oriolr/PodcastRSSPlugin">View on Github</a></span>
                            
                             </header>
                          
