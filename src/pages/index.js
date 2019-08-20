@@ -33,7 +33,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>Python Blockchain</h3>
-                                <p>Project created to improve my skills using python.</p>
+                                <p>Python based project exploring the functionality of Blockchain technologies.</p>
                                 <h5>Tools Used:</h5>
                                 <ul className="tools-items">
                                     <li>Python</li>
@@ -106,10 +106,11 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
                                 <h3>Instagram Clone</h3>
-                                <p>A responsive Javascript Calendar created for the KOPMN website to advertise upcoming events.</p>
+                                <p>An Instagram clone created using React and GraphQL.</p>
                                     <h5>Tools used:</h5>
                                     <ul className="tools-items">
                                         <li>React.JS</li>
+                                        <li>GraphQL</li>
                                     </ul>
                                     <span className="projectlink"><a href="http://https://github.com/oriolr/Instagramclone">View on Github</a></span>
                            
@@ -119,10 +120,11 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
                                 <h3>Podcast RSS Plugin</h3>
-                                <p>A responsive Javascript Calendar created for the KOPMN website to advertise upcoming events.</p>
+                                <p>A Wordpress plugin tool which creates a blog roll from information obtained from RSS feed</p>
                                     <h5>Tools used:</h5>
                                     <ul className="tools-items">
-                                        <li>React.JS</li>
+                                        <li>PHP</li>
+                                        <li>Wordpress</li>
                                     </ul>
                                     <span className="projectlink"><a href="https://github.com/oriolr/PodcastRSSPlugin">View on Github</a></span>
                            
