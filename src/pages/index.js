@@ -29,7 +29,13 @@ class HomeIndex extends React.Component {
                 <Banner />
 
                 <div id="main">
+                    <div className="inner">
+                         <header className="major">
+                            <h2>Projects</h2>
+                        </header>
+                    </div>
                     <section id="one" className="tiles">
+                        
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>Python Blockchain</h3>
